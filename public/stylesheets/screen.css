@@ -1,0 +1,36 @@
+@import "/stylesheets/reset.css";
+
+/* ................GLOBAL................... */
+body { 
+    padding: 10px 20px 20px;
+    margin: 0; 
+    color: #000;
+	font-size: 87.5%;
+	margin-top: 20px;
+	background: #fff url(/images/bg.png) top left repeat-x;
+	font-family: arial, sans-serif; }
+html > body	 {
+    font-size: 14px; }	/* Non-IE browsers */
+p {
+	margin-bottom: 1em;
+    line-height: 1.4em; }
+.unnecessary {
+	color: #999; }
+
+h1 {
+	font-size: 2em;
+	margin-bottom: 1em; }
+h2 {
+	margin-top: .5em;
+	font-size: 1.65em;
+	margin-bottom: .25em; }
+table td,
+table th {
+	padding: 4px 12px 4px 0;
+	text-align: left; }
+table {
+	margin-bottom: 1em; }
+ul {
+	margin-bottom: 1em; }
+input {
+	font-size: 1.3em; }

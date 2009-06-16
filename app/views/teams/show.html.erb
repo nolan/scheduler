@@ -1,0 +1,38 @@
+<p>
+  <b>Name:</b>
+  <%=h @team.name %>
+</p>
+
+<p>
+  <b>Stadium:</b>
+  <%=h @team.stadium %>
+</p>
+
+<p>
+  <b>Capacity:</b>
+  <%=h @team.capacity %>
+</p>
+
+<p>
+  <b>Address 1:</b>
+  <%=h @team.address_1 %>
+</p>
+
+<p>
+  <b>City:</b>
+  <%=h @team.city %>
+</p>
+
+<p>
+  <b>State:</b>
+  <%=h @team.state %>
+</p>
+
+<p>
+  <b>Zip:</b>
+  <%=h @team.zip %>
+</p>
+
+
+<%= link_to 'Edit', edit_team_path(@team) %> |
+<%= link_to 'Back', teams_path %>

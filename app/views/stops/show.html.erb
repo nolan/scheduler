@@ -1,0 +1,28 @@
+<p>
+  <b>Schedule:</b>
+  <%=h @stop.schedule_id %>
+</p>
+
+<p>
+  <b>Game:</b>
+  <%=h @stop.game_id %>
+</p>
+
+<p>
+  <b>Distance:</b>
+  <%=h @stop.distance %>
+</p>
+
+<p>
+  <b>Sights:</b>
+  <%=h @stop.sights %>
+</p>
+
+<p>
+  <b>People:</b>
+  <%=h @stop.people %>
+</p>
+
+
+<%= link_to 'Edit', edit_stop_path(@stop) %> |
+<%= link_to 'Back', stops_path %>

@@ -1,0 +1,11 @@
+# Read about fixtures at http://ar.rubyonrails.org/classes/Fixtures.html
+
+one:
+  home_team_id: 1
+  away_team_id: 1
+  gameday: 2009-06-03
+
+two:
+  home_team_id: 1
+  away_team_id: 1
+  gameday: 2009-06-03

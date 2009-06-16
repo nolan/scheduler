@@ -1,0 +1,19 @@
+# Read about fixtures at http://ar.rubyonrails.org/classes/Fixtures.html
+
+one:
+  name: MyString
+  stadium: MyString
+  capacity: 1
+  address_1: MyString
+  city: MyString
+  state: MyString
+  zip: MyString
+
+two:
+  name: MyString
+  stadium: MyString
+  capacity: 1
+  address_1: MyString
+  city: MyString
+  state: MyString
+  zip: MyString

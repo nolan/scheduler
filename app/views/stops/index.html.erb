@@ -1,0 +1,28 @@
+<h1>Listing stops</h1>
+
+<table>
+  <tr>
+    <th>Schedule</th>
+    <th>Game</th>
+    <th>Distance</th>
+    <th>Sights</th>
+    <th>People</th>
+  </tr>
+
+<% for stop in @stops %>
+  <tr>
+    <td><%=h stop.schedule_id %></td>
+    <td><%=h stop.game_id %></td>
+    <td><%=h stop.distance %></td>
+    <td><%=h stop.sights %></td>
+    <td><%=h stop.people %></td>
+    <td><%= link_to 'Show', stop %></td>
+    <td><%= link_to 'Edit', edit_stop_path(stop) %></td>
+    <td><%= link_to 'Destroy', stop, :confirm => 'Are you sure?', :method => :delete %></td>
+  </tr>
+<% end %>
+</table>
+
+<br />
+
+<%= link_to 'New stop', new_stop_path %>

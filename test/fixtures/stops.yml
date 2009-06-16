@@ -1,0 +1,15 @@
+# Read about fixtures at http://ar.rubyonrails.org/classes/Fixtures.html
+
+one:
+  schedule_id: 1
+  game_id: 1
+  distance: 1
+  sights: MyString
+  people: MyString
+
+two:
+  schedule_id: 1
+  game_id: 1
+  distance: 1
+  sights: MyString
+  people: MyString

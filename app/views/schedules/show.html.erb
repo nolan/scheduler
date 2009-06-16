@@ -1,0 +1,117 @@
+<h1><%= link_to 'Schedules', schedules_path %> : <%= @schedule.name %>
+<small style="font-size: .5em;">(<%= link_to 'Edit', edit_schedule_path(@schedule) %>)</small></h1>
+
+<%- if @stops.size > 0 -%>
+<table>
+  <tr>
+    <th>Home Team</th>
+    <th>Away</th>
+    <th>Week</th>
+    <th>Date</th>
+    <th>Time</th>
+    <th>Distance</th>
+    <th>Sights</th>
+    <th>People</th>
+    <th colspan="2"></th>
+  </tr>
+<%- @total = 0 -%>
+<% for stop in @stops %>
+  <tr>
+     <td><%=h stop.game.home_team.name %></td>
+     <td><%=h stop.game.away_team.name %></td>
+     <td><%=h stop.game.week %></td>
+     <td><%=h stop.game.date.to_s(:spelled_out) %></td>
+     <td><%=h stop.game.time.to_s(:just_time) %></td>
+    <td><%=h miles(stop.distance_to(@previous_stop)) if @previous_stop %></td>
+    <td><%=h stop.sights %></td>
+    <td><%=h stop.people %></td>
+    <td><%= link_to 'Edit', edit_schedule_stop_path(@schedule, stop) %></td>
+    <td><%= link_to 'Destroy', schedule_stop_path(@schedule, stop), :confirm => 'Are you sure?', :method => :delete %></td>
+  </tr>
+  <%- @total += stop.distance_to(@previous_stop) if @previous_stop -%>
+  <%- @previous_stop = stop -%>
+<% end %>
+</table>
+<p><strong>Games/Stadiums</strong>: <%= @stops.size %> | <strong>Mileage</strong>: <%= miles(@total) %></p>
+<%- end -%>
+
+<hr />
+
+<% form_for(@stop, :url => schedule_stops_path(@schedule)) do |f| %>
+  <%= f.error_messages %>
+  <h2>
+    <%= f.label :game_id, 'Add a Game' %>
+  </h2>
+  
+  <script type="text/javascript" charset="utf-8">
+   function go()
+   {
+   	box = document.forms[0].navi;
+   	destination = box.options[box.selectedIndex].value;
+   	if (destination) location.href = destination;
+   }
+  </script>
+  <p><select name=navi onChange="go()">
+     <option value='<%= schedule_path(@schedule) %>'>--- Next Games ---</option>
+     <%- (1..17).to_a.each do |week| -%>
+     <option <%= 'selected ' if week.to_s == @week %>value="<%= schedule_path(@schedule, :week => week) %>">Week <%= week %></option>
+     <%- end -%>
+  </select></p>
+  
+  <table>
+    <tr>
+      <th></th>
+      <th>Home team</th>
+      <th>Away team</th>
+      <th>Week</th>
+      <th>Date</th>
+      <th>Time</th>
+      <th>Distance</th>
+    </tr>
+
+  <% for game in @games %>
+    <tr>
+      <td><%= f.radio_button :game_id, game.id, :disabled => @previous_stops.include?(game.home_team_id) ? true : false %></td>
+      <td<%= ' class="unnecessary"' if @previous_teams.include?(game.home_team_id) %>><%=h game.home_team.name %></td>
+      <td<%= ' class="unnecessary"' if  @previous_teams.include?(game.away_team_id) %>><%=h game.away_team.name %></td>
+      <td><%=h game.week %></td>
+      <td><%=h game.date.to_s(:spelled_out) %></td>
+      <td><%=h game.time.to_s(:just_time) %></td>
+      <td><%=h miles(game.distance_to(@schedule.last_game)) if @schedule.last_game %></td>
+    </tr>
+  <% end %>
+  </table>
+  
+  <p>
+    <%= f.label :sights %><br />
+    <%= f.text_field :sights, :size => 48 %>
+  </p>
+  <p>
+    <%= f.label :people %><br />
+    <%= f.text_field :people, :size => 48 %>
+  </p>
+  <p>
+    <%= f.submit "Add to Schedule" %>
+  </p>
+<% end %>
+
+<hr />
+
+<h2>TODOS</h2>
+<ul>
+   <li>Add list of next weeks games</li>
+   <li>Thur/Mon Night Games List</li>
+   <li>Fix distance for when specific week is selected</li>
+</ul>
+
+<h2>NOTES</h2>
+<ul>
+   <li>Games will not be selectable if already visiting stadium</li>
+   <li>Teams are grayed out when already seen</li>
+</ul>
+
+<p><strong>Created at</strong>:
+  <%=h @schedule.created_at %> |
+  <strong>Updated at</strong>:
+  <%=h @schedule.updated_at %>
+</p>

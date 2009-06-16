@@ -1,0 +1,28 @@
+<h1>Editing stop</h1>
+
+<% form_for(:stop, @stop, :url => schedule_stop_path(@schedule, @stop), :method => :post) do |f| %>
+  <%= f.error_messages %>
+
+  <p>
+    <%= f.label :schedule_id %><br />
+    <%= f.text_field :schedule_id %>
+  </p>
+  <p>
+    <%= f.label :game_id %><br />
+    <%= f.text_field :game_id %>
+  </p>
+  <p>
+    <%= f.label :sights %><br />
+    <%= f.text_field :sights %>
+  </p>
+  <p>
+    <%= f.label :people %><br />
+    <%= f.text_field :people %>
+  </p>
+  <p>
+    <%= f.submit "Update" %>
+  </p>
+<% end %>
+
+<%= link_to 'Show', schedule_stop_path(@schedule, @stop) %> |
+<%= link_to 'Back', schedule_stops_path(@schedule) %>

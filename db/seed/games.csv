@@ -1,0 +1,255 @@
+1,SEP 10,8:30 PM,Tennessee,Pittsburgh
+1,SEP 13,1:00 PM,Miami,Atlanta
+1,SEP 13,1:00 PM,Denver,Cincinnati
+1,SEP 13,1:00 PM,Minnesota,Cleveland
+1,SEP 13,1:00 PM,Jacksonville,Indianapolis
+1,SEP 13,1:00 PM,Detroit,New Orleans
+1,SEP 13,1:00 PM,Dallas,Tampa Bay
+1,SEP 13,1:00 PM,Philadelphia,Carolina
+1,SEP 13,1:00 PM,Kansas City,Baltimore
+1,SEP 13,1:00 PM,Jets,Houston
+1,SEP 13,4:15 PM,Washington,Giants
+1,SEP 13,4:15 PM,San Francisco,Arizona
+1,SEP 13,4:15 PM,St. Louis,Seattle
+1,SEP 13,8:20 PM,Chicago,Green Bay
+1,SEP 14,7:00 PM,Buffalo,New England
+1,SEP 14,10:15 PM,San Diego,Oakland
+2,SEP 20,1:00 PM,Carolina,Atlanta
+2,SEP 20,1:00 PM,Minnesota,Detroit
+2,SEP 20,1:00 PM,Cincinnati,Green Bay
+2,SEP 20,1:00 PM,Houston,Tennessee
+2,SEP 20,1:00 PM,Oakland,Kansas City
+2,SEP 20,1:00 PM,New England,Jets
+2,SEP 20,1:00 PM,New Orleans,Philadelphia
+2,SEP 20,1:00 PM,St. Louis,Washington
+2,SEP 20,1:00 PM,Arizona,Jacksonville
+2,SEP 20,4:05 PM,Tampa Bay,Buffalo
+2,SEP 20,4:05 PM,Seattle,San Francisco
+2,SEP 20,4:15 PM,Pittsburgh,Chicago
+2,SEP 20,4:15 PM,Baltimore,San Diego
+2,SEP 20,4:15 PM,Cleveland,Denver
+2,SEP 20,8:20 PM,Giants,Dallas
+2,SEP 21,8:30 PM,Indianapolis,Miami
+3,SEP 27,1:00 PM,Washington,Detroit
+3,SEP 27,1:00 PM,Green Bay,St. Louis
+3,SEP 27,1:00 PM,San Francisco,Minnesota
+3,SEP 27,1:00 PM,Atlanta,New England
+3,SEP 27,1:00 PM,Tennessee,Jets
+3,SEP 27,1:00 PM,Kansas City,Philadelphia
+3,SEP 27,1:00 PM,Giants,Tampa Bay
+3,SEP 27,1:00 PM,Cleveland,Baltimore
+3,SEP 27,1:00 PM,Jacksonville,Houston
+3,SEP 27,4:05 PM,New Orleans,Buffalo
+3,SEP 27,4:05 PM,Chicago,Seattle
+3,SEP 27,4:15 PM,Miami,San Diego
+3,SEP 27,4:15 PM,Pittsburgh,Cincinnati
+3,SEP 27,4:15 PM,Denver,Oakland
+3,SEP 27,8:20 PM,Indianapolis,Arizona
+3,SEP 28,8:30 PM,Carolina,Dallas
+4,OCT 4,1:00 PM,Detroit,Chicago
+4,OCT 4,1:00 PM,Cincinnati,Cleveland
+4,OCT 4,1:00 PM,Seattle,Indianapolis
+4,OCT 4,1:00 PM,Giants,Kansas City
+4,OCT 4,1:00 PM,Baltimore,New England
+4,OCT 4,1:00 PM,Tampa Bay,Washington
+4,OCT 4,1:00 PM,Tennessee,Jacksonville
+4,OCT 4,1:00 PM,Oakland,Houston
+4,OCT 4,4:05 PM,Jets,New Orleans
+4,OCT 4,4:05 PM,Buffalo,Miami
+4,OCT 4,4:15 PM,St. Louis,San Francisco
+4,OCT 4,4:15 PM,Dallas,Denver
+4,OCT 4,8:20 PM,San Diego,Pittsburgh
+4,OCT 5,8:30 PM,Green Bay,Minnesota
+5,OCT 11,1:00 PM,Cleveland,Buffalo
+5,OCT 11,1:00 PM,Dallas,Kansas City
+5,OCT 11,1:00 PM,Minnesota,St. Louis
+5,OCT 11,1:00 PM,Oakland,Giants
+5,OCT 11,1:00 PM,Tampa Bay,Philadelphia
+5,OCT 11,1:00 PM,Pittsburgh,Detroit
+5,OCT 11,1:00 PM,Washington,Carolina
+5,OCT 11,1:00 PM,Cincinnati,Baltimore
+5,OCT 11,4:05 PM,Atlanta,San Francisco
+5,OCT 11,4:15 PM,Jacksonville,Seattle
+5,OCT 11,4:15 PM,Houston,Arizona
+5,OCT 11,4:15 PM,New England,Denver
+5,OCT 11,8:20 PM,Indianapolis,Tennessee
+5,OCT 12,8:30 PM,Jets,Miami
+6,OCT 18,1:00 PM,Houston,Cincinnati
+6,OCT 18,1:00 PM,Detroit,Green Bay
+6,OCT 18,1:00 PM,Baltimore,Minnesota
+6,OCT 18,1:00 PM,Giants,New Orleans
+6,OCT 18,1:00 PM,Cleveland,Pittsburgh
+6,OCT 18,1:00 PM,Carolina,Tampa Bay
+6,OCT 18,1:00 PM,Kansas City,Washington
+6,OCT 18,1:00 PM,St. Louis,Jacksonville
+6,OCT 18,4:05 PM,Arizona,Seattle
+6,OCT 18,4:05 PM,Philadelphia,Oakland
+6,OCT 18,4:15 PM,Tennessee,New England
+6,OCT 18,4:15 PM,Buffalo,Jets
+6,OCT 18,8:20 PM,Chicago,Atlanta
+6,OCT 19,8:30 PM,Denver,San Diego
+7,OCT 25,1:00 PM,Chicago,Cincinnati
+7,OCT 25,1:00 PM,Green Bay,Cleveland
+7,OCT 25,1:00 PM,San Diego,Kansas City
+7,OCT 25,1:00 PM,Indianapolis,St. Louis
+7,OCT 25,1:00 PM,San Francisco,Houston
+7,OCT 25,1:00 PM,Minnesota,Pittsburgh
+7,OCT 25,4:05 PM,Buffalo,Carolina
+7,OCT 25,4:05 PM,Jets,Oakland
+7,OCT 25,4:15 PM,New Orleans,Miami
+7,OCT 25,4:15 PM,Atlanta,Dallas
+7,OCT 25,8:20 PM,Arizona,Giants
+7,OCT 26,8:30 PM,Philadelphia,Washington
+8,NOV 1,1:00 PM,Houston,Buffalo
+8,NOV 1,1:00 PM,Cleveland,Chicago
+8,NOV 1,1:00 PM,Seattle,Dallas
+8,NOV 1,1:00 PM,St. Louis,Detroit
+8,NOV 1,1:00 PM,Minnesota,Green Bay
+8,NOV 1,1:00 PM,San Francisco,Indianapolis
+8,NOV 1,1:00 PM,Miami,Jets
+8,NOV 1,1:00 PM,Denver,Baltimore
+8,NOV 1,4:05 PM,Oakland,San Diego
+8,NOV 1,4:05 PM,Jacksonville,Tennessee
+8,NOV 1,4:15 PM,Giants,Philadelphia
+8,NOV 1,4:15 PM,Carolina,Arizona
+8,NOV 2,8:30 PM,Atlanta,New Orleans
+9,NOV 8,1:00 PM,Washington,Atlanta
+9,NOV 8,1:00 PM,Arizona,Chicago
+9,NOV 8,1:00 PM,Baltimore,Cincinnati
+9,NOV 8,1:00 PM,Houston,Indianapolis
+9,NOV 8,1:00 PM,Miami,New England
+9,NOV 8,1:00 PM,Green Bay,Tampa Bay
+9,NOV 8,1:00 PM,Kansas City,Jacksonville
+9,NOV 8,4:05 PM,Detroit,Seattle
+9,NOV 8,4:05 PM,Carolina,New Orleans
+9,NOV 8,4:15 PM,San Diego,Giants
+9,NOV 8,4:15 PM,Tennessee,San Francisco
+9,NOV 8,8:20 PM,Dallas,Philadelphia
+9,NOV 9,8:30 PM,Pittsburgh,Denver
+10,NOV 12,8:20 PM,Chicago,San Francisco
+10,NOV 15,1:00 PM,Buffalo,Tennessee
+10,NOV 15,1:00 PM,New Orleans,St. Louis
+10,NOV 15,1:00 PM,Tampa Bay,Miami
+10,NOV 15,1:00 PM,Detroit,Minnesota
+10,NOV 15,1:00 PM,Jacksonville,Jets
+10,NOV 15,1:00 PM,Cincinnati,Pittsburgh
+10,NOV 15,1:00 PM,Denver,Washington
+10,NOV 15,1:00 PM,Atlanta,Carolina
+10,NOV 15,4:05 PM,Kansas City,Oakland
+10,NOV 15,4:15 PM,Dallas,Green Bay
+10,NOV 15,4:15 PM,Seattle,Arizona
+10,NOV 15,4:15 PM,Philadelphia,San Diego
+10,NOV 15,8:20 PM,New England,Indianapolis
+10,NOV 16,8:30 PM,Baltimore,Cleveland
+10,NOV 16,,Giants,Houston
+11,NOV 19,8:20 PM,Miami,Carolina
+11,NOV 22,1:00 PM,Washington,Dallas
+11,NOV 22,1:00 PM,Cleveland,Detroit
+11,NOV 22,1:00 PM,San Francisco,Green Bay
+11,NOV 22,1:00 PM,Pittsburgh,Kansas City
+11,NOV 22,1:00 PM,Atlanta,Giants
+11,NOV 22,1:00 PM,New Orleans,Tampa Bay
+11,NOV 22,1:00 PM,Buffalo,Jacksonville
+11,NOV 22,1:00 PM,Indianapolis,Baltimore
+11,NOV 22,1:00 PM,Seattle,Minnesota
+11,NOV 22,4:05 PM,Arizona,St. Louis
+11,NOV 22,4:15 PM,Jets,New England
+11,NOV 22,4:15 PM,Cincinnati,Oakland
+11,NOV 22,4:15 PM,San Diego,Denver
+11,NOV 22,8:20 PM,Philadelphia,Chicago
+11,NOV 23,8:30 PM,Tennessee,Houston
+12,NOV 26,12:30 PM,Green Bay,Detroit
+12,NOV 26,4:15 PM,Oakland,Dallas
+12,NOV 26,8:20 PM,Giants,Denver
+12,NOV 29,1:00 PM,Tampa Bay,Atlanta
+12,NOV 29,1:00 PM,Miami,Buffalo
+12,NOV 29,1:00 PM,Cleveland,Cincinnati
+12,NOV 29,1:00 PM,Arizona,Tennessee
+12,NOV 29,1:00 PM,Seattle,St. Louis
+12,NOV 29,1:00 PM,Chicago,Minnesota
+12,NOV 29,1:00 PM,Carolina,Jets
+12,NOV 29,1:00 PM,Washington,Philadelphia
+12,NOV 29,1:00 PM,Indianapolis,Houston
+12,NOV 29,4:05 PM,Kansas City,San Diego
+12,NOV 29,4:05 PM,Jacksonville,San Francisco
+12,NOV 29,8:20 PM,Pittsburgh,Baltimore
+12,NOV 30,8:30 PM,New England,New Orleans
+13,DEC 6,1:00 PM,Philadelphia,Atlanta
+13,DEC 6,1:00 PM,St. Louis,Chicago
+13,DEC 6,1:00 PM,Detroit,Cincinnati
+13,DEC 6,1:00 PM,Tennessee,Indianapolis
+13,DEC 6,1:00 PM,Denver,Kansas City
+13,DEC 6,1:00 PM,New Orleans,Washington
+13,DEC 6,1:00 PM,Tampa Bay,Carolina
+13,DEC 6,1:00 PM,Houston,Jacksonville
+13,DEC 6,1:00 PM,Oakland,Pittsburgh
+13,DEC 6,4:05 PM,San Diego,Cleveland
+13,DEC 6,4:15 PM,San Francisco,Seattle
+13,DEC 6,4:15 PM,Dallas,Giants
+13,DEC 6,4:15 PM,Minnesota,Arizona
+13,DEC 6,8:20 PM,New England,Miami
+13,DEC 7,8:30 PM,Baltimore,Green Bay
+14,DEC 10,8:20 PM,Pittsburgh,Cleveland
+14,DEC 13,1:00 PM,New Orleans,Atlanta
+14,DEC 13,1:00 PM,Green Bay,Chicago
+14,DEC 13,1:00 PM,St. Louis,Tennessee
+14,DEC 13,1:00 PM,Denver,Indianapolis
+14,DEC 13,1:00 PM,Buffalo,Kansas City
+14,DEC 13,1:00 PM,Jets,Tampa Bay
+14,DEC 13,1:00 PM,Miami,Jacksonville
+14,DEC 13,1:00 PM,Detroit,Baltimore
+14,DEC 13,1:00 PM,Seattle,Houston
+14,DEC 13,1:00 PM,Cincinnati,Minnesota
+14,DEC 13,1:00 PM,Carolina,New England
+14,DEC 13,4:05 PM,Washington,Oakland
+14,DEC 13,4:15 PM,San Diego,Dallas
+14,DEC 13,8:20 PM,Philadelphia,Giants
+14,DEC 14,8:30 PM,Arizona,San Francisco
+15,DEC 17,8:20 PM,Indianapolis,Jacksonville
+15,SAT DEC 19,8:20 PM,Dallas,New Orleans
+15,DEC 20,1:00 PM,New England,Buffalo
+15,DEC 20,1:00 PM,Arizona,Detroit
+15,DEC 20,1:00 PM,Miami,Tennessee
+15,DEC 20,1:00 PM,Cleveland,Kansas City
+15,DEC 20,1:00 PM,Houston,St. Louis
+15,DEC 20,1:00 PM,Atlanta,Jets
+15,DEC 20,1:00 PM,San Francisco,Philadelphia
+15,DEC 20,1:00 PM,Green Bay,Pittsburgh
+15,DEC 20,1:00 PM,Chicago,Baltimore
+15,DEC 20,4:05 PM,Cincinnati,San Diego
+15,DEC 20,4:05 PM,Oakland,Denver
+15,DEC 20,4:15 PM,Tampa Bay,Seattle
+15,DEC 20,8:20 PM,Minnesota,Carolina
+15,DEC 21,8:30 PM,Giants,Washington
+16,FRI DEC 25,7:30 PM,San Diego,Tennessee
+16,DEC 27,1:00 PM,Buffalo,Atlanta
+16,DEC 27,1:00 PM,Kansas City,Cincinnati
+16,DEC 27,1:00 PM,Oakland,Cleveland
+16,DEC 27,1:00 PM,Seattle,Green Bay
+16,DEC 27,1:00 PM,Baltimore,Pittsburgh
+16,DEC 27,1:00 PM,Houston,Miami
+16,DEC 27,1:00 PM,Jacksonville,New England
+16,DEC 27,1:00 PM,Tampa Bay,New Orleans
+16,DEC 27,1:00 PM,Carolina,Giants
+16,DEC 27,1:00 PM,Denver,Philadelphia
+16,DEC 27,4:05 PM,St. Louis,Arizona
+16,DEC 27,4:05 PM,Detroit,San Francisco
+16,DEC 27,4:15 PM,Jets,Indianapolis
+16,DEC 27,8:20 PM,Dallas,Washington
+16,DEC 28,8:30 PM,Minnesota,Chicago
+17,JAN 3,1:00 PM,Indianapolis,Buffalo
+17,JAN 3,1:00 PM,Jacksonville,Cleveland
+17,JAN 3,1:00 PM,Philadelphia,Dallas
+17,JAN 3,1:00 PM,Chicago,Detroit
+17,JAN 3,1:00 PM,Atlanta,Tampa Bay
+17,JAN 3,1:00 PM,New Orleans,Carolina
+17,JAN 3,1:00 PM,New England,Houston
+17,JAN 3,1:00 PM,San Francisco,St. Louis
+17,JAN 3,1:00 PM,Pittsburgh,Miami
+17,JAN 3,1:00 PM,Giants,Minnesota
+17,JAN 3,1:00 PM,Cincinnati,Jets
+17,JAN 3,4:15 PM,Green Bay,Arizona
+17,JAN 3,4:15 PM,Washington,San Diego
+17,JAN 3,4:15 PM,Tennessee,Seattle
+17,JAN 3,4:15 PM,Baltimore,Oakland
+17,JAN 3,4:15 PM,Kansas City,Denver
